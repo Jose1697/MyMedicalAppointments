@@ -9,14 +9,18 @@ public class Main {
         myDoctor.addAvailableAppointment(new Date(),"4pm");
         myDoctor.addAvailableAppointment(new Date(),"10am");
         myDoctor.addAvailableAppointment(new Date(),"1pm");
+        for (Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()) {
+            System.out.println(aA.getDate() + " " + aA.getTime());
 
+        }
 
+        /*
         Patient patient = new Patient("Luis Villarroel","luis@mail.com");
         patient.setWeight(54.6);
         System.out.println(patient.getWeight());
         patient.setPhoneNumber("12345678");
         System.out.println(patient.getPhoneNumber());
-
+        */
     }
 
 
