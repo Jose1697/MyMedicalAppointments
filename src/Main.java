@@ -34,7 +34,7 @@ public class Main {
 
             }
         };
-        
+
         /*for (model.Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()) {
             System.out.println(aA.getDate() + " " + aA.getTime());
 
