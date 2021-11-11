@@ -1,11 +1,15 @@
 import model.*;
+import ui.UIMenu;
 
 import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
 
-        //showMenu();
+        UIMenu.showMenu();
+
+
+        /*
         Doctor myDoctor = new Doctor("Jose Artica","Pediatria");
         myDoctor.addAvailableAppointment(new Date(),"4pm");
         myDoctor.addAvailableAppointment(new Date(),"10am");
@@ -35,10 +39,16 @@ public class Main {
             }
         };
 
+        */
+
         /*for (model.Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()) {
             System.out.println(aA.getDate() + " " + aA.getTime());
 
         }*/
+
+
+
+
         /*
         System.out.println();
         System.out.println();
