@@ -49,7 +49,7 @@ public class UIMenu {
         ArrayList<Doctor> doctors = new ArrayList<>();
         doctors.add(new Doctor("Alejandro Martinez","alejandro@mail.com"));
         doctors.add(new Doctor("Karen Sosa","karen@mail.com"));
-        doctors.add(new Doctor("Alejandro Martinez","rocio@mail.com"));
+        doctors.add(new Doctor("Rocio Gomez","rocio@mail.com"));
 
         ArrayList<Patient> patients = new ArrayList<>();
         patients.add(new Patient("Anahi Salgado","anahi@gmail.com"));
@@ -76,7 +76,7 @@ public class UIMenu {
                     if(p.getEmail().equals(email)){
                         emailCorrect = true;
                         patientLogged = p;
-                        //showPatientMenu
+                        UIPatientMenu.showPatientMenu();
                     }
                 }
             }
